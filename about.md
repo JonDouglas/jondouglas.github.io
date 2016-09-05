@@ -3,28 +3,37 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+My name is Jon Douglas. I love to code, tinker, and play video games. This is one of my favorite poems:
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Desiderata
 
-There are currently two themes built on Poole:
+Go placidly amid the noise and haste, and remember what peace there may be in silence.
+As far as possible without surrender be on good terms with all persons.
+Speak your truth quietly and clearly; and listen to others, even the dull and ignorant; they too have their story.
+Avoid loud and aggressive persons, they are vexations to the spirit.
+If you compare yourself with others, you may become vain and bitter;
+for always there will be greater and lesser persons than yourself.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Enjoy your achievements as well as your plans.
+Keep interested in your career, however humble; it is a real possession in the changing fortunes of time.
+Exercise caution in your business affairs; for the world is full of trickery.
+But let this not blind you to what virtue there is; many persons strive for high ideals;
+and everywhere life is full of heroism.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Be yourself.
+Especially, do not feign affection.
+Neither be critical about love; for in the face of all aridity and disenchantment it is as perennial as the grass.
 
-## Setup
+Take kindly the counsel of the years, gracefully surrendering the things of youth.
+Nurture strength of spirit to shield you in sudden misfortune. But do not distress yourself with imaginings.
+Many fears are born of fatigue and loneliness. Beyond a wholesome discipline, be gentle with yourself.
 
-Some fun facts about the setup of this project include:
+You are a child of the universe, no less than the trees and the stars;
+you have a right to be here.
+And whether or not it is clear to you, no doubt the universe is unfolding as it should.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Therefore be at peace with God, whatever you conceive Him to be,
+and whatever your labors and aspirations, in the noisy confusion of life keep peace with your soul.
+With all its sham, drudgery and broken dreams, it is still a beautiful world. Be careful. Strive to be happy.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+© Max Ehrmann 1927

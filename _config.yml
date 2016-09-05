@@ -4,18 +4,19 @@
 permalink:           pretty
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Jon Douglas
+tagline:             'The rantings of a developer'
+description:         'Various blog posts on things I think are neat or difficult to understand'
+url:                 http://jon-douglas.com
 baseurl:             ''
 paginate:            5
+github:              https://github.com/jondouglas
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jon Douglas
+  url:               https://twitter.com/_jondouglas
+  email:             jondouglas18@gmail.com
 
 # Custom vars
 version:             1.0.0
