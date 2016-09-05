@@ -8,7 +8,7 @@ title:               Jon Douglas
 tagline:             'The rantings of a developer'
 description:         'Various blog posts on things I think are neat or difficult to understand'
 url:                 http://jon-douglas.com
-baseurl:             ''
+baseurl:             
 paginate:            5
 github:              https://github.com/jondouglas
 
