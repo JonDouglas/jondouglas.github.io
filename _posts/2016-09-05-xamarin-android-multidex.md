@@ -73,6 +73,16 @@ We can take a look at the main bulk of the command here:
     :redirect
     call "%java_exe%" -Djava.ext.dirs="%frameworkdir%" com.android.multidex.MainDexListBuilder "%disableKeepAnnotated%" "%tmpJar%" "%params%" 1>"%output%"
     :afterClassReferenceListBuilder
+	
+Sadly this doesn't work and we need to change the params to actually work:
+
+	SET params=%params:'=%  
+	if DEFINED output goto redirect  
+	call "%java_exe%" -Djava.ext.dirs="%frameworkdir%" com.android.multidex.MainDexListBuilder %disableKeepAnnotated% "%tmpJar%" %params%  
+	goto afterClassReferenceListBuilder  
+	:redirect
+	call "%java_exe%" -Djava.ext.dirs="%frameworkdir%" com.android.multidex.MainDexListBuilder %disableKeepAnnotated% "%tmpJar%" %params% 1>"%output%"  
+	:afterClassReferenceListBuilder
     
 
 Ideally we also want to see the final command to ensure any syntax issues/etc.
