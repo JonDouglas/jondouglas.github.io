@@ -80,6 +80,14 @@ Perfect! It looks like both Xamarin.iOS and Xamarin.Android can use the path of:
 
 `[DllImport("libc")]`
 
+**Note:** You can make use of the following command to see the symbol table
+
+`nm -a <path to .dylib>`
+
+If you need to find dependencies of a `.dylib` you can use:
+
+`otool -L <path to .dylib>`
+
 ### Write the appropriate P/Invoke declaration
 
 Now to figure out "How many licks does it take to get to the Tootsie Roll center of a Tootsie Pop?"
