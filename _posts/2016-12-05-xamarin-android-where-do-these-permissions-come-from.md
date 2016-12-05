@@ -79,7 +79,7 @@ Fair enough. Let's figure out what we can provide to make this easier for us.
 
 Here's a few ways we can figure out this information:
 
-1) Search through all third-party dependencies via a decompiler like dotPeek and view the `Assembly's information to see if a permission is being added.
+1) Search through all third-party dependencies via a decompiler like dotPeek and view the Assembly's information to see if a permission is being added.
 
 EX: (Using dotPeek)
 
