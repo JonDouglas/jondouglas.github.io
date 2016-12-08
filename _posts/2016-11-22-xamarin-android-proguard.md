@@ -27,7 +27,7 @@ ProGuard reads **input jars** in which it will shrink, optimize, obfuscate, and 
 
 **Please note only the following steps are run in Xamarin.Android:**
 
-> The Xamarin.Android `ProGuard` configuration does not  obfuscate the `.apk` and it is not possible to enable obfuscation through ProGuard even through the use of custom configuration files. Thus Xamarin.Android's `ProGuard` will only run the **shrinking and optimization steps**. 
+> The Xamarin.Android `ProGuard` configuration does not  obfuscate the `.apk` and it is not possible to enable obfuscation through ProGuard even through the use of custom configuration files. Thus Xamarin.Android's `ProGuard` will only run the **shrinking step**. 
 
 ## How does ProGuard work with Xamarin.Android
 
@@ -44,7 +44,7 @@ You can find more information on this topic here: [https://developer.xamarin.com
 
 ### Proguard
 
-Secondly, ProGuard will then run and remove unused Java bytecode to optimize the `.apk`.
+Secondly, ProGuard will then run and remove unused Java bytecode to optimize the `.apk`. (shrinking step)
 
 ## Enabling ProGuard
 
@@ -151,14 +151,14 @@ The `Proguard` task is found inside the `Xamarin.Android.Build.Tasks.dll` assemb
 
 **Optional Parameter:** 
 
-custom `proguard.cfg` file with `Build Action` of `ProguardConfiguration`. This will add the `proguard.cfg` file to the `ProguardConfigurationFiles` parameter.
+Custom `proguard.cfg` file with `Build Action` of `ProguardConfiguration`. This will add the `proguard.cfg` file to the `ProguardConfigurationFiles` parameter.
 
 ## ProGuard Options
 
 - [Input/Output Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#iooptions)
 - [Keep Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#keepoptions)
 - [Shrinking Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#shrinkingoptions)
-- [Optimization Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#optimizationoptions)
+- ~~[Optimization Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#optimizationoptions)~~ (This step is skipped in Xamarin.Android)
 - ~~[Obfuscation Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#obfuscationoptions)~~ (This step is skipped in Xamarin.Android)
 - ~~[Preverification Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#preverificationoptions)~~ (This step is skipped in Xamarin.Android)
 - [General Options](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/usage.html#generaloptions)
