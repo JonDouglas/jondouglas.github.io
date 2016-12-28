@@ -31,7 +31,7 @@ Great! Now we're off to the races.
 
 ### Creating the NetStandard library
 
-The first thing we'll do is create a `netstandard 1.4` library. To do this, create a PCL project:
+The first thing we'll do is create a `netstandard` library. To do this, create a PCL project:
 
 ![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/413bf636-cd08-4ee3-816e-e2ea288908e6/12.28.2016-12.17.png)
 
