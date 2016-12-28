@@ -51,7 +51,7 @@ By the looks of things, the dependency is `netstandard 1.3`. So let's make sure 
 
 ### Creating the Xamarin.Android project
 
-Nothing too special here, we're just going to create a `File -> New Single=View App (Android) Project`:
+Nothing too special here, we're just going to create a `File -> New Single-View App (Android) Project`:
 
 ![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/ae2f7ace-e0d2-4a64-8958-33953eac58a5/12.28.2016-12.22.png)
 
@@ -113,7 +113,7 @@ Let's now make sure that this is apart of our `DbContext` by defining a new cont
 
 First, we need to make sure our Xamarin.Android project is referencing our `netstandard` library.
 
-http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/e16ae9da-00ba-45f8-a912-6fb4a442586c/12.28.2016-13.01.png
+![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/e16ae9da-00ba-45f8-a912-6fb4a442586c/12.28.2016-13.01.png)
 
 Now that we have that, let's implement our `MainActivity.cs` with some Entity Framework code!
 
@@ -189,6 +189,12 @@ Well shucks...this is awkward. We don't have a great way to generate Entity Fram
 ![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/329e9a3b-6065-4a90-b499-e6d20ff70616/12.28.2016-13.56.png)
 
 We need to add the `Entity Framework Tools`, `Entity Framework Core Design`, and `Entity Framework Core` to this project so we can use the command line to generate our `Migrations`.
+
+[https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools.DotNet](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools.DotNet)
+
+[https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/)
+
+[https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/)
 
 ![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/947ef73a-3b84-46b0-a56e-0e93d5533f3f/12.28.2016-13.57.png)
 
