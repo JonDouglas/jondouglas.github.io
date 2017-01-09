@@ -12,11 +12,15 @@ baseurl:
 paginate:            5
 github:              https://github.com/jondouglas
 
+
 # About/contact
 author:
   name:              Jon Douglas
   url:               https://twitter.com/_jondouglas
   email:             jondouglas18@gmail.com
+  twitter:           _jondouglas
+  twitterUrl:        https://twitter.com/_jondouglas
+  github:            https://github.com/jondouglas/
 
 # Custom vars
 version:             1.0.0
