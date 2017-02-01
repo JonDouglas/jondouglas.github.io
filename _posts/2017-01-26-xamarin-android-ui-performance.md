@@ -5,6 +5,8 @@ title: Xamarin.Android - UI Performance
 
 # Android UI Performance
 
+**NOTE: This blog was featured on blog.xamarin.com in which you can view a condensed version here: [https://blog.xamarin.com/tips-for-creating-a-smooth-and-fluid-android-ui/](https://blog.xamarin.com/tips-for-creating-a-smooth-and-fluid-android-ui/)**
+
 As developers, we want our users to have buttery smooth experiences when using our application. When it comes to UI performance, a buttery smooth experience can be defined as a consistent **60 frames per second(fps)**. That means that we have to render a frame every **16 ms** to achieve this experience.
 
 **Note:**
