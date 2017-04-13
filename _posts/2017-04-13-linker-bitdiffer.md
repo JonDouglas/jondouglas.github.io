@@ -39,11 +39,11 @@ Consider the following example with the three `.apk` we created earlier comparin
 
 You can notice off a quick glance that we had quite a difference in `Members Changed` or `Removed` between the linker setting `None` -> `Sdk Assemblies Only` -> `Sdk and User Assemblies`.
 
-Now that's not the only cool feature of this tool, you can also dive down into a specific namespace to see the `diff` between your assemblies:
+Now that's not the only cool feature of this tool, you can also dive down into a specific class to see the `diff` between your assemblies:
 
 ![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/445fb42b-e0f5-455d-923d-07d626ebc409/04.13.2017-11.40.png)
 
-And finally we can dig into what the difference is between items in our class:
+And finally we can dig into what the difference is between members in our class:
 
 ![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/c297819c-f32b-4eba-81f5-4f9b394b51d0/04.13.2017-11.44.png)
 
