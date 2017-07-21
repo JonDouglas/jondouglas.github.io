@@ -13,7 +13,7 @@ Have you ever enabled Proguard in your project and now your Build Output is plag
 
 Here's a sample of a Build Output of a project that has the `Xamarin Android Support Library - Design`(<https://www.nuget.org/packages/Xamarin.Android.Support.Design/>) installed. This of course has a large list of dependencies on other support libraries.
 
-https://gist.github.com/JonDouglas/fe19e8e7be658779e8b68b90c8fc7aad
+<https://gist.github.com/JonDouglas/fe19e8e7be658779e8b68b90c8fc7aad>
 
 You may notice hundreds of notes saying 
 
