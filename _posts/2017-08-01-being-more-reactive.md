@@ -11,7 +11,7 @@ One of my goals as a developer has been to learn what the big deal is regarding 
 
 RX has slowly overtaken various development communities by storm. Here's a few reasons why I personally dived into RX.
 
-- **Influencers have double downed on the framework**
+- **Influencers have double downed on the library**
     - <http://jakewharton.com/managing-the-reactive-world-with-rxjava/>
     - <http://ericsink.com/entries/dont_use_rxui.html>
     - <https://www.hanselman.com/blog/HanselminutesPodcast252ReactiveUIExtensionsToTheReactiveFrameworkRxWithPaulBetts.aspx>
@@ -122,12 +122,54 @@ Now we need to finally create our hamburger based on the other streams our famil
 
 ![](../images/Zip.png)
 
+## RX in Action
+
+![](../images/rx.gif)
+
+## Why is this better?
+
+> This is because reactive programming lets you focus on what you’re trying to achieve  rather than on the technical details of making it work. This leads to simple and readable code and eliminates most boilerplate code (such as change tracking or state management) that distracts you from the intent of your code logic. When the code is short and focused, it’s less buggy and easier to grasp.
+
+Quoted from the book [RX.NET in Action](https://www.manning.com/books/rx-dot-net-in-action)
+
 ## The Code
 
 You can find the code which you can run locally in Visual Studio or LINQPad here:
 
 <https://gist.github.com/JonDouglas/56b61d43c60d987efeef7c9d294adfe8>
 
+This sample will run continuously to demonstrate assembling a hamburger.
+
+**Note:** Don't forget to install RX - Main into your project!
+
+<https://www.nuget.org/packages/System.Reactive/>
+
 ## Summary
 
-It took me over 4 years to realize that **Reactive Extensions(RX)** is a _good_ idea. It's never to late to start learning something new.
+It took me over 4 slow years to realize that **Reactive Extensions(RX)** is a _good_ idea. It's never too late to start learning something new. I'm learning something new about RX everyday at a snail's pace, but at least I'm learning something!
+
+Big thanks to Shane Neuville(<https://twitter.com/PureWeen>) and Paul Betts(<https://twitter.com/paulcbetts>) for various tips and tricks on earlier drafts of this blog post!
+
+**Note:** The diagrams in this blog post are RTL when in reality most diagrams show LTR such as marble diagrams. This was a bit easier for me to learn with.
+
+### Icons
+
+Icons were used from the [Noun Project ](https://thenounproject.com).
+
+```
+Bun - Karina M
+Hamburger - chiara galli
+Romaine Lettuce - Imogen Oh
+Microwave - Nook Fulloption
+Grill - Aleksandr Vector
+Meat - Vladimir Belochkin
+Meat -  Rutmer Zijlstra
+Flies - Blaise Sewell
+Heat -  Stan Diers
+```
+
+## Xamarin.Android Book
+
+If you enjoyed this post, please consider subscribing to my upcoming book's email list:
+
+You can signup at the following link: [Programming Xamarin.Android Email List](http://eepurl.com/cz_fj1)
