@@ -306,6 +306,8 @@ Let's see what we did in action:
 
 We've only seen the tip of the iceberg of what Reactive Extensions and ReactiveUI can do for our applications. It is quite a powerful set of libraries that we can use to ease the complexity of our applications.
 
+Source Code: <https://github.com/JonDouglas/BeingReactive>
+
 ## Xamarin.Android Book
 
 If you enjoyed this post, please consider subscribing to my upcoming book's email list:
