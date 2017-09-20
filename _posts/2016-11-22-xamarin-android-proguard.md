@@ -9,7 +9,7 @@ title: Proguard
 
 The `ProGuard` tool from the Android SDK will also optimize the bytecode, remove unused code instructions, and obfuscates the remaining classes, fields, and methods with short names.
 
-![](http://content.screencast.com/users/JDouglas18/folders/Snagit/media/e1c2a095-d29e-4905-bea0-db9770b647e4/11.21.2016-12.10.png)
+![](https://content.screencast.com/users/JDouglas18/folders/Snagit/media/e1c2a095-d29e-4905-bea0-db9770b647e4/11.21.2016-12.10.png)
 
 There are four *optional* steps that ProGuard uses:
 
@@ -50,13 +50,13 @@ Secondly, ProGuard will then run and remove unused Java bytecode to optimize the
 
 ProGuard can be enabled by checking the `Enable Proguard` option inside of your [Packaging Properties](https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/publishing_an_application/part_1_-_preparing_an_application_for_release/#Set_Packaging_Properties). You must also ensure your project is set to the `Release` configuration as the `Linker` must run in order for `ProGuard` to run.
 
-![](http://content.screencast.com/users/JDouglas18/folders/Snagit/media/716eb5a7-77c3-46f6-b13b-0e94c1cdc574/11.21.2016-13.21.png)
+![](https://content.screencast.com/users/JDouglas18/folders/Snagit/media/716eb5a7-77c3-46f6-b13b-0e94c1cdc574/11.21.2016-13.21.png)
 
-![](http://content.screencast.com/users/JDouglas18/folders/Snagit/media/ba6364fb-4d84-4ecb-a7bb-4246f6f810fe/11.21.2016-13.20.png)
+![](https://content.screencast.com/users/JDouglas18/folders/Snagit/media/ba6364fb-4d84-4ecb-a7bb-4246f6f810fe/11.21.2016-13.20.png)
 
 *Optional:* You can add a custom ProGuard Configuration file for more control with the ProGuard tooling. To do this, you can create a new `.cfg` file and apply the build action of `ProguardConfiguration`.
 
-![](http://content.screencast.com/users/JDouglas18/folders/Snagit/media/49625f16-cb76-4387-b1be-017f5e69e1b8/11.21.2016-13.19.png)
+![](https://content.screencast.com/users/JDouglas18/folders/Snagit/media/49625f16-cb76-4387-b1be-017f5e69e1b8/11.21.2016-13.19.png)
 
 ## Customize which code to keep
 

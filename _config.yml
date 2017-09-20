@@ -7,7 +7,7 @@ permalink:           pretty
 title:               Jon Douglas
 tagline:             'The rantings of a developer'
 description:         'Various blog posts on things I think are neat or difficult to understand'
-url:                 http://jon-douglas.com
+url:                 https://jon-douglas.com
 baseurl:             
 paginate:            5
 github:              https://github.com/jondouglas

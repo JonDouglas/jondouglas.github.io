@@ -188,4 +188,4 @@ As a bonus, you can always start off with some of these community created Progua
 
 If you enjoyed this post, please consider subscribing to my upcoming book's email list:
 
-You can signup at the following link: [Programming Xamarin.Android Email List](http://eepurl.com/cz_fj1)
+You can signup at the following link: [Programming Xamarin.Android Email List](https://eepurl.com/cz_fj1)

@@ -83,13 +83,13 @@ Here's a few ways we can figure out this information:
 
 EX: (Using dotPeek)
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/cc36c438-038a-4efb-938c-7fbd14cd30f5/12.05.2016-13.49.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/cc36c438-038a-4efb-938c-7fbd14cd30f5/12.05.2016-13.49.png)
 
 2) Use a `grep` tool to search for a `uses-permission` and `UsesPermission` string.
 
 EX: (Using grepWin - [https://sourceforge.net/projects/grepwin/files/](https://sourceforge.net/projects/grepwin/files/))
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/a2d541f4-85e1-451f-838b-f9999014190c/12.05.2016-13.46.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/a2d541f4-85e1-451f-838b-f9999014190c/12.05.2016-13.46.png)
 
 
 

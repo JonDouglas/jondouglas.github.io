@@ -5,7 +5,7 @@ title: Being Reactive with Xamarin.Android
 
 # Preface
 
-This is a continuation post of <http://www.jon-douglas.com/2017/08/01/being-more-reactive/> in which we will explore how we can apply **Reactive Extensions(RX)** to our Xamarin.Android project.
+This is a continuation post of <https://www.jon-douglas.com/2017/08/01/being-more-reactive/> in which we will explore how we can apply **Reactive Extensions(RX)** to our Xamarin.Android project.
 
 We will visually show how **Reactive Extensions(RX)** and a touch of **Reactive UI(RxUI)** to accomplish our previous example in Xamarin.Android
 
@@ -121,8 +121,8 @@ We are going to define a very simple `LinearLayout` which includes 5 child `Line
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
+              xmlns:tools="https://schemas.android.com/tools"
               android:id="@+id/activity_bbq"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
@@ -302,7 +302,7 @@ We are then creating a new object and using our extension method to visually add
 
 Let's see what we did in action:
 
-![](http://i.imgur.com/yCJvRkb.gif)
+![](https://i.imgur.com/yCJvRkb.gif)
 
 We've only seen the tip of the iceberg of what Reactive Extensions and ReactiveUI can do for our applications. It is quite a powerful set of libraries that we can use to ease the complexity of our applications.
 
@@ -312,4 +312,4 @@ Source Code: <https://github.com/JonDouglas/BeingReactive>
 
 If you enjoyed this post, please consider subscribing to my upcoming book's email list:
 
-You can signup at the following link: [Programming Xamarin.Android Email List](http://eepurl.com/cz_fj1)
+You can signup at the following link: [Programming Xamarin.Android Email List](https://eepurl.com/cz_fj1)

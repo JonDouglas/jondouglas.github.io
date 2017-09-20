@@ -33,11 +33,11 @@ Great! Now we're off to the races.
 
 The first thing we'll do is create a `netstandard` library. To do this, create a PCL project:
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/413bf636-cd08-4ee3-816e-e2ea288908e6/12.28.2016-12.17.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/413bf636-cd08-4ee3-816e-e2ea288908e6/12.28.2016-12.17.png)
 
 Since this is not a `netstandard` library quite yet, let's go ahead and convert that by going to the project's `Properties`
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/e9035e1d-f3c8-4588-a73e-b1ed05514ae1/12.28.2016-12.19.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/e9035e1d-f3c8-4588-a73e-b1ed05514ae1/12.28.2016-12.19.png)
 
 Once we have that set, we want to ensure we have the minimum requirements for the two NuGet packages we linked above:
 
@@ -47,13 +47,13 @@ Once we have that set, we want to ensure we have the minimum requirements for th
 
 By the looks of things, the dependency is `netstandard 1.3`. So let's make sure our `netstandard` project is targeting that version:
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/934c42ef-20fe-416e-b9db-08233251362c/12.28.2016-12.21.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/934c42ef-20fe-416e-b9db-08233251362c/12.28.2016-12.21.png)
 
 ### Creating the Xamarin.Android project
 
 Nothing too special here, we're just going to create a `File -> New Single-View App (Android) Project`:
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/ae2f7ace-e0d2-4a64-8958-33953eac58a5/12.28.2016-12.22.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/ae2f7ace-e0d2-4a64-8958-33953eac58a5/12.28.2016-12.22.png)
 
 ### Adding the NuGet packages
 
@@ -61,11 +61,11 @@ This step is typically easiest to do on the project level rather than the soluti
 
 ### Adding the NuGet packages to the netstandard library
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/37444b40-49a7-4552-b9bb-f380a61b8627/12.28.2016-12.27.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/37444b40-49a7-4552-b9bb-f380a61b8627/12.28.2016-12.27.png)
 
 ### Adding the NuGet packages to the Xamarin.Android project
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/352d4d5c-d933-4a10-bff0-065885ef5cdb/12.28.2016-12.44.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/352d4d5c-d933-4a10-bff0-065885ef5cdb/12.28.2016-12.44.png)
 
 ## Defining the DbContext
 
@@ -113,7 +113,7 @@ Let's now make sure that this is apart of our `DbContext` by defining a new cont
 
 First, we need to make sure our Xamarin.Android project is referencing our `netstandard` library.
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/e16ae9da-00ba-45f8-a912-6fb4a442586c/12.28.2016-13.01.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/e16ae9da-00ba-45f8-a912-6fb4a442586c/12.28.2016-13.01.png)
 
 Now that we have that, let's implement our `MainActivity.cs` with some Entity Framework code!
 
@@ -186,7 +186,7 @@ It looks like we're missing a core Entity Framework feature, and that's `Migrati
 
 Well shucks...this is awkward. We don't have a great way to generate Entity Framework `Migrations` from within a Xamarin.Android project or the `netstandard` library. Let's work with a quick workaround by creating a new `netcore` Console Application so we can generate `Migrations`.
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/329e9a3b-6065-4a90-b499-e6d20ff70616/12.28.2016-13.56.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/329e9a3b-6065-4a90-b499-e6d20ff70616/12.28.2016-13.56.png)
 
 We need to add the `Entity Framework Tools`, `Entity Framework Core Design`, and `Entity Framework Core` to this project so we can use the command line to generate our `Migrations`.
 
@@ -196,19 +196,19 @@ We need to add the `Entity Framework Tools`, `Entity Framework Core Design`, and
 
 [https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/)
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/947ef73a-3b84-46b0-a56e-0e93d5533f3f/12.28.2016-13.57.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/947ef73a-3b84-46b0-a56e-0e93d5533f3f/12.28.2016-13.57.png)
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/60d1647f-3243-43df-a692-e7cdd0cac4cc/12.28.2016-13.59.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/60d1647f-3243-43df-a692-e7cdd0cac4cc/12.28.2016-13.59.png)
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/1f368ad3-0145-4bee-8ddd-3638661586b9/12.28.2016-14.27.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/1f368ad3-0145-4bee-8ddd-3638661586b9/12.28.2016-14.27.png)
 
 We now need to move over our `Cat.cs` and `CatContext.cs` to ensure there's a `DbContext` it can generate `Migrations` for. Your Console App should now look like this:
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/8ae84f5a-6ffb-4e64-9df1-98d69ac307bd/12.28.2016-14.02.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/8ae84f5a-6ffb-4e64-9df1-98d69ac307bd/12.28.2016-14.02.png)
 
 Now we can generate a schema for our context. Let's use the new `dotnet` tooling to do this. Open up a new console in our current Console App directory:
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/27b633be-12fd-40e6-969b-0d9cb9e3aec0/12.28.2016-14.03.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/27b633be-12fd-40e6-969b-0d9cb9e3aec0/12.28.2016-14.03.png)
 
 Now we need to generate an initial `Migration`.
 
@@ -216,7 +216,7 @@ Now we need to generate an initial `Migration`.
 
 This should generate a migration:
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/fd90bc04-3e22-49a3-b9e7-0d37aa79a590/12.28.2016-14.11.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/fd90bc04-3e22-49a3-b9e7-0d37aa79a590/12.28.2016-14.11.png)
 
 Now we need to take the initial migrations generated in the `Migrations` folder of our project and simply move them over to our `netstandard` library.
 
@@ -224,7 +224,7 @@ Now we need to take the initial migrations generated in the `Migrations` folder 
 
 Let's try running the Xamarin.Android project again and see if we run into any other exceptions
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/3ec8d330-8114-47ed-b5a4-8e48a69bf70e/12.28.2016-14.16.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/3ec8d330-8114-47ed-b5a4-8e48a69bf70e/12.28.2016-14.16.png)
 
 It looks like it worked! Our simple attempt at adding `Cat` models and retrieving them works!
 
@@ -232,11 +232,11 @@ If we wanted to take a closer look at the `SQLite` file that gets generated, use
 
 Taking a closer look into the `data/data/files` folder, we will see our `Cats.db` that we created.
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/145c9d28-0320-41e1-8ea4-dfb2b564ca73/12.28.2016-14.19.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/145c9d28-0320-41e1-8ea4-dfb2b564ca73/12.28.2016-14.19.png)
 
 You can now take that file and open it in any `SQLite` explorer.
 
-![](http://content.screencast.com/users/JDouglas2529/folders/Snagit/media/ae6bd4bf-2e4e-442d-a12e-3b17f61282ef/12.28.2016-14.20.png)
+![](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/ae6bd4bf-2e4e-442d-a12e-3b17f61282ef/12.28.2016-14.20.png)
 
 **Note:** I personally use DB Browser for SQLite ([http://sqlitebrowser.org/](http://sqlitebrowser.org/))
 

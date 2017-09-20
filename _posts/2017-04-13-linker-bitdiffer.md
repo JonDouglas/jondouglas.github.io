@@ -51,4 +51,4 @@ Although this is only part 1 of various linker tricks I use to diagnose a proble
 
 If you enjoyed this post, please consider subscribing to my upcoming book's email list:
 
-You can signup at the following link: [Programming Xamarin.Android Email List](http://eepurl.com/cz_fj1)
+You can signup at the following link: [Programming Xamarin.Android Email List](https://eepurl.com/cz_fj1)

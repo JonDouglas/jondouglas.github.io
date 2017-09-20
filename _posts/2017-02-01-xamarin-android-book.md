@@ -20,11 +20,11 @@ platform.
 
 ## Cover
 
-![](http://i.imgur.com/qy6SCRr.png)
+![](https://i.imgur.com/qy6SCRr.png)
 
 ## Subscribe to the email list
 
 One thing I would like to ask each one of you is to subscribe to my email list to get updates on the book and early access to various chapters. 
 I've added a field for your feedback as to what you want to see covered in more depth.
 
-You can signup at the following link: [Programming Xamarin.Android Email List](http://eepurl.com/cz_fj1)
+You can signup at the following link: [Programming Xamarin.Android Email List](https://eepurl.com/cz_fj1)

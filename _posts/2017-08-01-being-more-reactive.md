@@ -34,7 +34,7 @@ Imagine the application we are going to create mimics a family BBQ in which hamb
 - Mother - Responsible for cutting fresh vegetables.
 - You - Responsible for putting everything together to make a hamburger.
 
-![](http://i.imgur.com/ELP0UfJ.png)
+![](https://i.imgur.com/ELP0UfJ.png)
 
 ### Brother
 
@@ -92,7 +92,7 @@ You are waiting for your family to finish all of their tasks so you can do yours
 
 You may also notice that each one of our family members have a role in which they are **producing** something. However each stream has a different set of dependencies, filters, transformations, and combinations they must adhere to. Each stream also might take different amounts of time to complete.
 
-![](http://i.imgur.com/AbgjaFT.png)
+![](https://i.imgur.com/AbgjaFT.png)
 
 ## Filters
 
@@ -102,7 +102,7 @@ We only have one example of a filter in this sample:
 
 Brother - Checks to ensure each meat is not `Rotten`.
 
-![](http://i.imgur.com/Ho7t9Gw.png)
+![](https://i.imgur.com/Ho7t9Gw.png)
 
 ## Transformations
 
@@ -114,17 +114,17 @@ Father - Puts the raw meat on the grill which makes them `Cooked`.
 
 Sister - Puts the buns in the microwave which make them `Heated`.
 
-![](http://i.imgur.com/sdmJKxi.png)
+![](https://i.imgur.com/sdmJKxi.png)
 
 ## Combinations
 
 Now we need to finally create our hamburger based on the other streams our family is producing. I've color coordinated each ingredient to show what hamburger it belongs to. The items marked in `Red` sadly get discarded because we don't have enough `Meat` that is `Cooked`, sadly `Brother` has already thrown away the `Rotten` meat.
 
-![](http://i.imgur.com/fHKGohE.png)
+![](https://i.imgur.com/fHKGohE.png)
 
 ## RX in Action
 
-![](http://i.imgur.com/k2tkaQN.gif)
+![](https://i.imgur.com/k2tkaQN.gif)
 
 ## Why is this better?
 
@@ -172,4 +172,4 @@ Heat -  Stan Diers
 
 If you enjoyed this post, please consider subscribing to my upcoming book's email list:
 
-You can signup at the following link: [Programming Xamarin.Android Email List](http://eepurl.com/cz_fj1)
+You can signup at the following link: [Programming Xamarin.Android Email List](https://eepurl.com/cz_fj1)
