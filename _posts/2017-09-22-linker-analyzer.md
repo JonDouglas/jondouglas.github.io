@@ -33,9 +33,9 @@ Now one of the best tools in our toolkit is the ability to generate a `linker-de
 
 We can then use a comparison tool such as:
 
-https://www.scootersoftware.com/download.php (Windows)
+<https://www.scootersoftware.com/download.php> (Windows)
 
-https://www.kaleidoscopeapp.com/ (Mac)
+<https://www.kaleidoscopeapp.com/> (Mac)
 
 To compare between each linker option to see the behavior of what is being linked in our assembly. This is especially useful for optimizing our applications.
 
@@ -131,11 +131,11 @@ Total root vertices: 4
 
 This is only a surface level of how to use this tool to help diagnose linker issues in your application. This tool is extremely useful for seeing what is ultimately making your linked assemblies.
 
-Huge shoutout to Radek Doulik(https://github.com/radekdoulik) for a wonderful tool and documentation!
+Huge shoutout to Radek Doulik(<https://github.com/radekdoulik>) for a wonderful tool and documentation!
 
 **Further documentation:**
 
-https://github.com/mono/mono/tree/master/mcs/tools/linker-analyzer
+<https://github.com/mono/mono/tree/master/mcs/tools/linker-analyzer>
 
 ## Xamarin.Android Book
 
