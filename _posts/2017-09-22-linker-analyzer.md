@@ -46,7 +46,7 @@ You can also analyze types using the `linkeranalyzer.exe` tool that is shipped w
 **Note:** You may want to put the following on your `PATH`: 
 
 - `C:\Program Files\Mono\lib\mono\4.5` (Windows)
-- `/Library/Frameworks/Mono.framework/Versions/{Version}/lib/mono/4.5`
+- `/Library/Frameworks/Mono.framework/Versions/{Version}/lib/mono/4.5` (Mac)
 
 You can then use this tool to determine why a type was marked by the linker. For example if we wanted to see why our custom application was marked by the linker, we might first start with the parent type to see dependencies:
 
