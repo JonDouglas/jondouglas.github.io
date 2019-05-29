@@ -13,7 +13,7 @@ In March of 2018, my daughter Audrey was born. Transitioning to parenthood was a
 
 ![](/images/audrey.jpg)
 
-If there's anything I learned about becoming a father, it's that you need to **make time as it's not magically handed to you.** Someday your life with change for the best, and you have to put things on the shelf for awhile until you're ready to commit to them again.
+If there's anything I learned about becoming a father, it's that you need to **make time as it's not magically handed to you.** Someday your life will change for the best, and you have to put things on the shelf for awhile until you're ready to commit to them again.
 
 ## Xamarin.Android Book
 
