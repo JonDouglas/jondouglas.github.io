@@ -11,7 +11,7 @@ I wanted to provide an update as to what's next for this blog, and some of the d
 
 In March of 2018, my daughter Audrey was born. Transitioning to parenthood was a challenge in itself! I mean, how could you not love this face?
 
-![](/Images/audrey.jpg)
+![](/images/audrey.jpg)
 
 If there's anything I learned about becoming a father, it's that you need to **make time as it's not magically handed to you.** Someday your life with change for the best, and you have to put things on the shelf for awhile until you're ready to commit to them again.
 
@@ -23,9 +23,9 @@ It's been a little more than 2 years since I provided an update about the Xamari
 
 As with anything, there are some challenges I ran into while writing this book. Although I'll save the details of the technical challenges of writing a book, I'll let you read a few blog posts that describe how challenging it is, especially for a technical book.
 
-- https://medium.com/@rothgar/the-economics-of-writing-a-technical-book-689d0c12fe39
-- https://paulcunningham.me/writing-technical-books/
-- https://zwischenzugs.com/2016/05/15/writing-a-technical-book/
+- [https://medium.com/@rothgar/the-economics-of-writing-a-technical-book-689d0c12fe39)](https://medium.com/@rothgar/the-economics-of-writing-a-technical-book-689d0c12fe39)
+- [https://paulcunningham.me/writing-technical-books/](https://paulcunningham.me/writing-technical-books/)
+- [https://zwischenzugs.com/2016/05/15/writing-a-technical-book/](https://zwischenzugs.com/2016/05/15/writing-a-technical-book/)
 
 Let me just say this up-front. I approached writing a technical book for the wrong reasons, not the right ones by the time I decided it wasn't worth it for me. I thought by writing this book and eventually publishing it, that I would see the fruit of my labors such as:
 
@@ -40,10 +40,10 @@ While, when I first pursued it, I was actually doing it for the following reason
 - Bridging the gap of complexity for others
 - Improving my network by increasing my audience
 
-I'm not going to sugar coat it, this was the primary reason why I failed to stay motivated while writing this book. **I was too obsessed with the result of writing this book rather than the actual process.** After writing over 250 pages of technical content, I had only hit the tip of the iceberg of what I wanted this book to be.
+I'm not going to sugar coat it, this was the primary reason why I failed to stay motivated while writing this book. **I was too obsessed with the result of writing this book rather than the actual process.** After writing over 250 pages of technical content, I had only hit the tip of the iceberg of what I wanted this book to be. For example, I wrote on topics like user-centric design and how to validate your apps:
 
-![](/Images/xabook-toc.png)
-![](/Images/chapter1.png)
+![](/images/xabook-toc.png)
+![](/images/chapter1.png)
 
 Looking back on this, I do not miss having to move pixels of images to be perfect, matching text size accordingly, and ensuring the right language is set for code snippets. The inner development loop for creating books is not great. Most of my time is focused on making things look good, rather than the actual writing itself. 
 
@@ -73,11 +73,11 @@ Yes you heard it right. For everyone who signed up for the Xamarin.Android Book 
 
 Throughout this process, I found my true passion is helping others become better developers, managers, and performers in general. I've started blogging on better habits, deep work, improved health, and software development. You can find my blog here:
 
-https://jondouglas.dev/blog/
+[https://jondouglas.dev/blog/](https://jondouglas.dev/blog/)
 
 I've also started streaming on twitch.tv helping people get into the software industry by holding AMAs and exploring topics I think are neat.
 
-https://www.twitch.tv/jondouglasdev
+[https://www.twitch.tv/jondouglasdev](https://www.twitch.tv/jondouglasdev)
 
 #### More blogs on mobile development
 
