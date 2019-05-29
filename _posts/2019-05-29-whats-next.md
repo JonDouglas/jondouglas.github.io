@@ -49,7 +49,7 @@ Looking back on this, I do not miss having to move pixels of images to be perfec
 
 I did not go into this with a publisher, I've heard too many horror stories and was recommended to try self-publishing for my first time. **Boy was I wrong about that...**
 
-The true reality in self-publishing is that you need to wear even many hats. You have to be a:
+The true reality in self-publishing is that you need to wear even more hats. You have to be a:
 
 - Designer
 - Technical Writer
@@ -67,7 +67,7 @@ I want to give back to the community more than I have recently. And thus, I have
 
 #### Giving away the Xamarin.Android Book for free.
 
-Yes you heard it right. For everyone who signed up for the Xamarin.Android Book email list, and those who are reading this blog, I will be creating small blog segments on all the aspects of content I wrote for this book and releasing them on this blog. I will also be including new blog posts on Android content that I think you could benefit from.
+Yes you heard it right. For everyone who signed up for the Xamarin.Android Book email list, and those who are reading this blog, I will be creating small blog segments on all the aspects of content I wrote for this book and releasing them on this blog. I will also be including new blog posts on mobile development content that I think you could benefit from.
 
 #### jondouglas.dev
 
@@ -75,7 +75,7 @@ Throughout this process, I found my true passion is helping others become better
 
 [https://jondouglas.dev/blog/](https://jondouglas.dev/blog/)
 
-I've also started streaming on twitch.tv helping people get into the software industry by holding AMAs and exploring topics I think are neat.
+I've also started streaming on twitch, helping people get into the software industry by holding AMAs and exploring topics I think are neat.
 
 [https://www.twitch.tv/jondouglasdev](https://www.twitch.tv/jondouglasdev)
 
@@ -83,4 +83,4 @@ I've also started streaming on twitch.tv helping people get into the software in
 
 Although this blog is primarily Android focused, I want to start talking about other aspects that I think are beneficial for mobile developers as a whole. That involves product-market fit, customer development, user experience, application development, continuous delivery, and much more. I hope you're just as excited as I am, especially to be repurposing a blog.
 
-Thank you all for reading.
+Thank you all for reading & support throughout the years.
