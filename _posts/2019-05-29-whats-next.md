@@ -83,4 +83,8 @@ I've also started streaming on twitch, helping people get into the software indu
 
 Although this blog is primarily Android focused, I want to start talking about other aspects that I think are beneficial for mobile developers as a whole. That involves product-market fit, customer development, user experience, application development, continuous delivery, and much more. I hope you're just as excited as I am, especially to be repurposing a blog.
 
+## Summary
+
+In the end, I learned many valuable lessons. I hope that my story inspires you today to put your wellbeing first, and ensure your priorities are aligned with your motivation. Think about why you do what you do, and make sure you enjoy the journey as well as the destination.
+
 Thank you all for reading & support throughout the years.
