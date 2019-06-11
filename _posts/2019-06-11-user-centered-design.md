@@ -112,7 +112,7 @@ Tools:
 
 ### Inspiration from others
 
-One of the best resources to derive your prototypes from is other applications. There
+One of the best resources to derive your prototypes from is other applications.
 
 - Dribble - [https://dribbble.com/](https://dribbble.com/)
 - Behance - [https://www.behance.net/](https://www.behance.net/)
